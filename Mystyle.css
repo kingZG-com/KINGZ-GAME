@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@font-face{
+  font-family: 'Chibolddemo';
+  src : url('Chibolddemo-1GD7g.ttf');
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+}
+#canvas{
+  width:308px;
+  height:597px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.rv{
+  display: none;
+}
+body{
+  background: black;
+  font-family: Arial ,'Sans-Serif';
+}
+.media, .point, .user, .last{
+  position:relative;
+  bottom:600px;
+}
+.transparent{
+ background: black;
+ opacity: 0.7;
+ transition: 5.0s;
+}
+.h2{
+  display : none;
+  position :relative ;
+  top:-60px;
+}
+.visible{
+  display: inline-block;
+  transition: 1.0s;
+}
+.skore{
+  color:white;
+  display : none;
+  position: relative;
+  top:-100px;
+}
+.v2{
+  display: inline-block;
+}
+.angkas{
+  color: yellow;
+  display:none;
+  font-size: 100px;
+  position: relative;
+  top:-80px;
+}
+.v3{
+  display: inline-block;
+}
+.point{
+  text-align: center;
+}
+.iim{
+  display: none;
+  position: relative;
+  top:-30px;
+}
+.v4{
+  display: inline-block;
+}
+.user, .last{
+  background: orange;
+  display:inline-block;
+  padding:10px;
+  border-radius:10px;
+  width:270px;
+  height:213px;
+}
+.vb{
+  display: none;
+}
+.h5{
+  font-family: 'Teko';
+  font-size: 19px;
+}
+#nama{
+  border-radius:10px;
+  padding:10px;
+  margin-top: 0.5rem;
+  outline: none;
+  border: none;
+  font-family: 'Teko';
+  font-style: italic;
+  font-size: 15px;
+}
+.jdl{
+  font-family: 'Chibolddemo';
+  border-bottom:3px solid red;
+  margin-bottom:1.8rem;
+  
+}
+.kirim, .bt{
+  margin-top:1.6rem;
+  width:80px;
+  height:37px;
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  font-family:'Chibolddemo';
+  font-size: 18px;
+  background: red;
+  cursor: pointer;
+  color:yellow;
+
+}
+.pp{
+  font-family: 'Teko';
+  font-size:25px;
+}
+.last{
+  height:250px;
+}
+.lt{
+  display:none;
+}
+.ni{
+  display:none;
+}
+.ns{
+  display:none;
+}
+.nk{
+  display:none;
+}
+.ng{
+  display: none;
+}

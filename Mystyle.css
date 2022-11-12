@@ -16,7 +16,7 @@
   width:308px;
   height:597px;
   margin-top: 50px;
-  cursor: pointer;
+  
 }
 
 .rv{
@@ -115,7 +115,7 @@ body{
   font-family:'Chibolddemo';
   font-size: 18px;
   background: red;
-  cursor: pointer;
+
   color:yellow;
 
 }
